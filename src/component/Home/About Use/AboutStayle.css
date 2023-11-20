@@ -1,0 +1,40 @@
+.paride {
+    background-color: transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+
+}
+
+.paride img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.paride h2 {
+    font-size: 50px;
+    font-weight: bold;
+    width: 80%;
+    margin: 10px 0px;
+    color: #a82d49;
+    font-family: 'Bai Jamjuree';
+    line-height: 50px;
+}
+.paride p{
+    font-size:16px ;
+    line-height: 28px;
+    color: #333;
+    font-family: 'Bai Jamjuree';
+}
+.paride button {
+    width: 140px;
+    height: 40px;
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px ;
+    
+}
