@@ -1,19 +1,11 @@
-.paride {
-    background-color: transparent;
-    padding: 25px 0px;
+.ingredients{
+    margin: 50px;
     max-width: 100%;
     height: auto;
+    text-align: left;
     overflow: hidden;
-    margin-top: 60px;
-
 }
-
-.paride img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.paride h2 {
+.ingredients h2{
     font-size: 35px;
     font-weight: bold;
     margin: 10px 0px;
@@ -22,25 +14,25 @@
     width: 80%;
     line-height: 50px;
 }
-.paride p{
+.ingredients p{
     font-size:16px ;
     line-height: 28px;
     color: #333;
     font-family: 'Bai Jamjuree';
     margin-top: 15px;
 }
-.paride button {
+.ingredients button {
+    background-color: #a82d49;
+    border: 0.5px solid #a82d49;
+    box-sizing: border-box; 
     width: 140px;
     height: 40px;
-    background-color: #a82d49;
-    border: 1px solid #a82d49;
-    box-sizing: border-box;
     text-align: center;
     margin-top: 20px ;
     transition: .2s ease;
     
 }
-.paride button a{
+.ingredients button a{
     display: block;
     color: #fff;
     font-family: 'Bai Jamjuree';
@@ -48,10 +40,24 @@
     text-transform: uppercase;
     font-weight: bold;
 }
-.paride button:hover a{
+.ingredients button:hover a{
     color: #a82d49;
 
 }
-.paride button:hover a{
+.ingredients button:hover a{
     background-color: #fff;
+}
+.ingredients ul{
+    padding: 0px;
+}
+.ingredients ul li{
+    
+    font-family: 'Bai Jamjuree';
+    color: #333;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.ingredients img {
+    max-width: 100%;
+    border-radius: 10px;
 }
