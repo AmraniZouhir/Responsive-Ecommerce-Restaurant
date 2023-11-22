@@ -1,0 +1,115 @@
+.blogs{
+    margin-top: 50px;
+    padding: 25px 0px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.blogs .row:first-child{
+    text-align: center;
+    margin: 25px 0px;
+}
+.blogs h2{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #a82d49;
+    font-family: 'Bai Jamjuree';
+    width: 100%;
+    line-height: 50px;
+}
+
+.blogs p{
+    font-size:16px ;
+    line-height: 28px;
+    color: #333;
+    font-family: 'Bai Jamjuree';
+    margin-top: 15px;
+}
+.blogs .box img {
+    max-width: 100%;
+}
+.blogs .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #f6f6f6;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.blogs .box h4{
+color: #a82d49;
+font-family: 'Bai Jamjuree';
+font-size: 22px;
+margin: 15px 0ox;
+}
+.blogs .box span{
+    display: block;
+    color: #444;
+    font-family: 'Bai Jamjuree';
+    margin: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+.blogs .box h6{
+    color: #a82d49;
+    font-size: 22px;
+    font-family: 'Bai Jamjuree';
+
+}
+.blogs button {
+    width: 150px;
+    height: 50px;
+    background-color: #ab3550;
+    border: 3px solid #ab3550;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    margin: 20px 10px 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.blogs button:last-of-type {
+    background-color: #a82d49;
+    color: #fff;
+
+}
+
+.blogs button:hover {
+    transform: .2s ease-in-out;
+}
+.blogs button:first-of-type:hover {
+    background-color: #a82d49ff;
+    color: #ac2947;
+}
+.blogs button:last-of-type:hover {
+    background-color: #fff;
+    color: #a82d49;
+}
+
+/* .old-price{
+    color: #444;
+    font-size: 22px;
+    font-family: 'Bai Jamjuree';
+    text-decoration: line-through;
+
+
+} */
+.new-price {
+    display: inline;
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+.old-price {
+    display: inline;
+    color: #999; /* Old price color */
+    text-decoration: line-through;
+    font-size: 0.9rem;
+    margin-left: 5px;
+}

@@ -16,7 +16,8 @@ export default function About() {
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.
                             </p>
-                            <button><a href='#'>Learn More</a></button>
+                            <button>Learn More</button>
+
 
                         </div>
                     </div>

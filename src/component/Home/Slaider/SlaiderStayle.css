@@ -1,0 +1,39 @@
+.slaiderx {
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+
+}
+
+.slaiderx .Carousel {
+    background-color: #fff;
+    margin: 40px 0px;
+    border-radius: 20px ;
+    box-sizing: 10px;
+    padding: 25px 0px;
+}
+
+.slaiderx img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 150px;
+}
+
+.slaiderx .carousel-item p {
+    color: #a82d49;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.slaiderx .carousel-item span {
+    color: #a82d49;
+    display: block;
+    margin: 15px 0px;
+    text-transform: uppercase;
+}
+

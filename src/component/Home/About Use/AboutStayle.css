@@ -30,28 +30,33 @@
     margin-top: 15px;
 }
 .paride button {
-    width: 140px;
-    height: 40px;
-    background-color: #a82d49;
-    border: 1px solid #a82d49;
+    width: 150px;
+    height: 50px;
+    background-color: #ab3550;
+    border: 3px solid #ab3550;
     box-sizing: border-box;
     text-align: center;
-    margin-top: 20px ;
-    transition: .2s ease;
-    
-}
-.paride button a{
-    display: block;
     color: #fff;
-    font-family: 'Bai Jamjuree';
-    text-decoration: none !important;
-    text-transform: uppercase;
+    margin: 20px 10px 20px 0;
     font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
-.paride button:hover a{
-    color: #a82d49;
+
+.paride button:last-of-type {
+    background-color: #a82d49;
+    color: #fff;
 
 }
-.paride button:hover a{
+
+.paride button:hover {
+    transform: .2s ease-in-out;
+}
+.paride button:first-of-type:hover {
+    background-color: #a82d49ff;
+    color: #ac2947;
+}
+.paride button:last-of-type:hover {
     background-color: #fff;
+    color: #a82d49;
 }

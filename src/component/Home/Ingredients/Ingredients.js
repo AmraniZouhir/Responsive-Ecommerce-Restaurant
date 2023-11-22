@@ -17,7 +17,8 @@ export default function Ingredients() {
                             <ol><img src={check} title='imge'></img>  Erat volutpat aliquet imperdiet.</ol>
                             <ol><img src={check} title='imge'></img>  purus a odio finibus bibendum.</ol>
                             </ul>
-                            <button><a href='#'>Learn More</a></button>
+                                <button>Learn More</button>
+
 
                         </div>
                         <div className='col-md-6'>

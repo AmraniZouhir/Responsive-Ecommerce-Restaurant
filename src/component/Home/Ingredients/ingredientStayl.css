@@ -22,30 +22,35 @@
     margin-top: 15px;
 }
 .ingredients button {
-    background-color: #a82d49;
-    border: 0.5px solid #a82d49;
-    box-sizing: border-box; 
-    width: 140px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
+    background-color: #ab3550;
+    border: 3px solid #ab3550;
+    box-sizing: border-box;
     text-align: center;
-    margin-top: 20px ;
-    transition: .2s ease;
-    
-}
-.ingredients button a{
-    display: block;
     color: #fff;
-    font-family: 'Bai Jamjuree';
-    text-decoration: none !important;
-    text-transform: uppercase;
+    margin: 20px 10px 20px 0;
     font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
-.ingredients button:hover a{
-    color: #a82d49;
+
+.ingredients button:last-of-type {
+    background-color: #a82d49;
+    color: #fff;
 
 }
-.ingredients button:hover a{
+
+.ingredients button:hover {
+    transform: .2s ease-in-out;
+}
+.ingredients button:first-of-type:hover {
+    background-color: #a82d49ff;
+    color: #ac2947;
+}
+.ingredients button:last-of-type:hover {
     background-color: #fff;
+    color: #a82d49;
 }
 .ingredients ul{
     padding: 0px;
