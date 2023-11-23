@@ -6,6 +6,9 @@ import Ingredients from './Ingredients/Ingredients'
 import Paralex from './paralex/Paralex'
 import Blogs from './Blogs/Blogs'
 import ControlledCarousel from './Slaider/Slaider'
+import AskedQuestions from './AskedQuestions/AskedQuestions'
+import Subscribe from './Subscribe/Subscribe '
+import Footer from './Foter/foter'
 
 export default function Home() {
   return (
@@ -17,8 +20,9 @@ export default function Home() {
     <Paralex/>
     <Blogs/>
     <ControlledCarousel/>
-    <Blogs/>
-
+    <AskedQuestions/>
+    <Subscribe/>
+    <Footer/>
     </>
     
   )

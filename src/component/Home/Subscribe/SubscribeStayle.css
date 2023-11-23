@@ -1,62 +1,62 @@
-.paride {
-    background-color: transparent;
-    padding: 25px 0px;
-    max-width: 100%;
-    height: auto;
+.subscribe{
+    padding: 30px 0px;
     overflow: hidden;
-    margin-top: 60px;
-
+    width: 100%;
+    height: auto;
 }
-
-.paride img {
-    max-width: 100%;
-    border-radius: 10px;
+.subscribe .row:first-child{
+    text-align: center;
+    margin: 25px 0px;
 }
-
-.paride h2 {
-    font-size: 35px;
+.subscribe h2{
+    font-size: 45px;
     font-weight: bold;
     margin: 10px 0px;
-    color: #340913;
+    color: #a82d49;
     font-family: 'Bai Jamjuree';
-    width: 80%;
+    width: 100%;
     line-height: 50px;
 }
-.paride p{
+
+.subscribe p{
     font-size:16px ;
     line-height: 28px;
     color: #333;
     font-family: 'Bai Jamjuree';
     margin-top: 15px;
 }
-.paride button {
-    width: 150px;
-    height: 50px;
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    max-width: 300px; /* Adjust as needed */
+    margin: 0 auto;
+}
+.subscribe button {
+    margin-left: 10px;
     background-color: #ab3550;
     border: 3px solid #ab3550;
     box-sizing: border-box;
     text-align: center;
     color: #fff;
-    margin: 20px 10px 20px 0;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Bai Jamjuree', sans-serif;
 }
-
-.paride button:last-of-type {
+.subscribe button:last-of-type {
     background-color: #a82d49;
     color: #fff;
 
 }
 
-.paride button:hover {
+.subscribe button:hover {
     transform: .2s ease-in-out;
 }
-.paride button:first-of-type:hover {
+.subscribe button:first-of-type:hover {
     background-color: #a82d49ff;
     color: #ac2947;
 }
-.paride button:last-of-type:hover {
+.subscribe button:last-of-type:hover {
     background-color: #fff;
     color: #a82d49;
 }
+

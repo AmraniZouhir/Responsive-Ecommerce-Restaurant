@@ -25,7 +25,7 @@
 }
 
 .slaiderx .carousel-item p {
-    color: #a82d49;
+    color: #2e0e15;
     font-size: 17px;
     line-height: 30px;
 }
@@ -36,4 +36,37 @@
     margin: 15px 0px;
     text-transform: uppercase;
 }
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
 
+}
+.carousel-indicators button {
+    width: 15px;
+    height: 15px; /* Adjusted height to make it a circle */
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    border-radius: 50%; /* Make the button circular */
+    margin: 5px 5px 15px 5px;
+}
+span.web-designer {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
