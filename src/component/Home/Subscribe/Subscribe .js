@@ -25,8 +25,7 @@ export default function Subscribe() {
                                 aria-label="Recipient's username"
                                 aria-describedby="basic-addon2"
                             />
-                            {/* <Button variant="outline-secondary" id="button-addon2">Subscribe</Button> */}
-                            <button>Learn More</button>
+                            <button>Subscribe</button>
 
                         </InputGroup>
 
